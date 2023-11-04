@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  text: "前端源码学习之路"
+  text: "前端源码学习"
   tagline: 温故而知新
-  actions:
-    - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
-    - theme: alt
-      text: API 示例
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: Markdown 示例
+  #     link: /koa/index
+  #   - theme: alt
+  #     text: API 示例
+  #     link: /vue/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Koa
+    details: Node.js下一代web框架
+    link: /koa/index
+  # - title: Vue
+  #   details: 易学易用，性能出色，适用场景丰富的 Web 前端框架
+  #   link: /vue/index
 ---
 

@@ -3,26 +3,26 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "云梦棠溪",
-  description: "A VitePress Site",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
-      { text: '示例', link: '/markdown-examples' }
+      { text: '主页', link: '/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/koa/': [
+        {
+          text: 'Koa',
+          items: [
+            { text: 'Object.create--对象继承', link: '/koa/' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/conn2020' }
+      { icon: 'github', link: 'https://github.com/conn2020/conn2020.github.io' }
     ]
   }
 })
