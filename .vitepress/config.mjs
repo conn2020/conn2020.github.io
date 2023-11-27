@@ -18,6 +18,14 @@ export default defineConfig({
             { text: 'Object.create--对象继承', link: '/koa/' },
           ]
         }
+      ],
+      '/other/': [
+        {
+          text: '其他',
+          items: [
+            { text: '视频防盗', link: '/other/' },
+          ]
+        }
       ]
     },
 

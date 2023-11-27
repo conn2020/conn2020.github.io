@@ -17,8 +17,8 @@ features:
   - title: Koa
     details: Node.js下一代web框架
     link: /koa/index
-  # - title: Vue
-  #   details: 易学易用，性能出色，适用场景丰富的 Web 前端框架
-  #   link: /vue/index
+  - title: 其他
+    details: 零散知识点总结
+    link: /other/index
 ---
 
