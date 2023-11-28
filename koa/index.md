@@ -55,5 +55,7 @@ console.log(app.context) // {cookies: undefined, ...}
 console.log(app.context.toJSON) // [Function: toJSON]
 ```
 **这样Koa实列可以通过自身属性context访问Context类下的属性和方法**
+  
+![avatar](/assets/images/002.png)
 ## 二、Object.create(null) 对比 new Object() 和 {}
 后两者均继承自 Object 构造函数，而使用Object.create(null) ，能得到一个没有任何继承痕迹的对象。
