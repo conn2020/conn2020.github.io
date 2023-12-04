@@ -24,6 +24,7 @@ export default defineConfig({
           text: '其他',
           items: [
             { text: '视频防盗', link: '/other/' },
+            { text: '视频转mp3--实现听歌自由', link: '/other/music' },
           ]
         }
       ]
