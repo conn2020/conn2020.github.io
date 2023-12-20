@@ -17,6 +17,8 @@ export default defineConfig({
           items: [
             { text: 'Object.create--对象继承', link: '/koa/' },
             { text: 'Koa的代理模式', link: '/koa/delegate' },
+            { text: 'Application(一)', link: '/koa/application1' },
+            { text: 'Application(二)', link: '/koa/application2' },
           ]
         }
       ],
